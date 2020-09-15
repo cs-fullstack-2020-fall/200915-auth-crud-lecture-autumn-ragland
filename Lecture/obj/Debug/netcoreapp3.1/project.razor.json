@@ -14417,6 +14417,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\student\\Code_School\\cohort5\\sprint_three\\dotnet\\200915\\200915-auth-crud-lecture-autumn-ragland\\Lecture\\Views\\Band\\Index.cshtml",
+      "TargetPath": "Views\\Band\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\student\\Code_School\\cohort5\\sprint_three\\dotnet\\200915\\200915-auth-crud-lecture-autumn-ragland\\Lecture\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
       "TargetPath": "Areas\\Identity\\Pages\\_ViewStart.cshtml",
       "FileKind": "mvc"
@@ -14434,6 +14439,11 @@
     {
       "FilePath": "c:\\Users\\student\\Code_School\\cohort5\\sprint_three\\dotnet\\200915\\200915-auth-crud-lecture-autumn-ragland\\Lecture\\Views\\Home\\Privacy.cshtml",
       "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\student\\Code_School\\cohort5\\sprint_three\\dotnet\\200915\\200915-auth-crud-lecture-autumn-ragland\\Lecture\\Views\\Band\\Details.cshtml",
+      "TargetPath": "Views\\Band\\Details.cshtml",
       "FileKind": "mvc"
     }
   ],

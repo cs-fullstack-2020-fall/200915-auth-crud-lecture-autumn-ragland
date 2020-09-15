@@ -1,0 +1,166 @@
+{
+	"info": {
+		"_postman_id": "3213d093-f670-4eb9-82f7-41e98c9674af",
+		"name": "200914-Bands",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "View All Bands",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:5001/Band",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"Band"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "View Band Details",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:5001/Band/Details?bandID=2",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"Band",
+						"Details"
+					],
+					"query": [
+						{
+							"key": "bandID",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DeleteBand",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:5001/Band/Delete?bandID=1",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"Band",
+						"Delete"
+					],
+					"query": [
+						{
+							"key": "bandID",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Band",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "bandName",
+							"value": "amet",
+							"type": "text"
+						},
+						{
+							"key": "yearFormed",
+							"value": "2017",
+							"type": "text"
+						},
+						{
+							"key": "numberOfMembers",
+							"value": "9",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://localhost:5001/Band/Add",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"Band",
+						"Add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Band",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "bandName",
+							"value": "Amet",
+							"type": "text"
+						},
+						{
+							"key": "yearFormed",
+							"value": "2000",
+							"type": "text"
+						},
+						{
+							"key": "numberOfMembers",
+							"value": "14",
+							"type": "text"
+						},
+						{
+							"key": "id",
+							"value": "1",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://localhost:5001/Band/Update",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"Band",
+						"Update"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
