@@ -14412,8 +14412,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\student\\Code_School\\cohort5\\sprint_three\\dotnet\\200915\\200915-auth-crud-lecture-autumn-ragland\\Lecture\\Views\\Band\\_band.cshtml",
+      "TargetPath": "Views\\Band\\_band.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\student\\Code_School\\cohort5\\sprint_three\\dotnet\\200915\\200915-auth-crud-lecture-autumn-ragland\\Lecture\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\student\\Code_School\\cohort5\\sprint_three\\dotnet\\200915\\200915-auth-crud-lecture-autumn-ragland\\Lecture\\Views\\Band\\UpdateForm.cshtml",
+      "TargetPath": "Views\\Band\\UpdateForm.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -14437,6 +14447,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\student\\Code_School\\cohort5\\sprint_three\\dotnet\\200915\\200915-auth-crud-lecture-autumn-ragland\\Lecture\\Views\\Band\\DeleteConf.cshtml",
+      "TargetPath": "Views\\Band\\DeleteConf.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\student\\Code_School\\cohort5\\sprint_three\\dotnet\\200915\\200915-auth-crud-lecture-autumn-ragland\\Lecture\\Views\\Home\\Privacy.cshtml",
       "TargetPath": "Views\\Home\\Privacy.cshtml",
       "FileKind": "mvc"
@@ -14444,6 +14459,16 @@
     {
       "FilePath": "c:\\Users\\student\\Code_School\\cohort5\\sprint_three\\dotnet\\200915\\200915-auth-crud-lecture-autumn-ragland\\Lecture\\Views\\Band\\Details.cshtml",
       "TargetPath": "Views\\Band\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\student\\Code_School\\cohort5\\sprint_three\\dotnet\\200915\\200915-auth-crud-lecture-autumn-ragland\\Lecture\\Views\\Band\\_form.cshtml",
+      "TargetPath": "Views\\Band\\_form.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\student\\Code_School\\cohort5\\sprint_three\\dotnet\\200915\\200915-auth-crud-lecture-autumn-ragland\\Lecture\\Views\\Band\\AddForm.cshtml",
+      "TargetPath": "Views\\Band\\AddForm.cshtml",
       "FileKind": "mvc"
     }
   ],

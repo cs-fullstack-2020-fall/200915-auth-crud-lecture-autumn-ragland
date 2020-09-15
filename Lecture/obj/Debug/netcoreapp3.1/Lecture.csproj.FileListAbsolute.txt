@@ -388,3 +388,8 @@ C:\Users\student\Code_School\cohort5\sprint_three\dotnet\200915\200915-auth-crud
 C:\Users\student\Code_School\cohort5\sprint_three\dotnet\200915\200915-auth-crud-lecture-autumn-ragland\Lecture\obj\Debug\netcoreapp3.1\Lecture.genruntimeconfig.cache
 C:\Users\student\Code_School\cohort5\sprint_three\dotnet\200915\200915-auth-crud-lecture-autumn-ragland\Lecture\obj\Debug\netcoreapp3.1\Razor\Views\Band\Details.cshtml.g.cs
 C:\Users\student\Code_School\cohort5\sprint_three\dotnet\200915\200915-auth-crud-lecture-autumn-ragland\Lecture\obj\Debug\netcoreapp3.1\Razor\Views\Band\Index.cshtml.g.cs
+C:\Users\student\Code_School\cohort5\sprint_three\dotnet\200915\200915-auth-crud-lecture-autumn-ragland\Lecture\obj\Debug\netcoreapp3.1\Razor\Views\Band\_band.cshtml.g.cs
+C:\Users\student\Code_School\cohort5\sprint_three\dotnet\200915\200915-auth-crud-lecture-autumn-ragland\Lecture\obj\Debug\netcoreapp3.1\Razor\Views\Band\AddForm.cshtml.g.cs
+C:\Users\student\Code_School\cohort5\sprint_three\dotnet\200915\200915-auth-crud-lecture-autumn-ragland\Lecture\obj\Debug\netcoreapp3.1\Razor\Views\Band\DeleteConf.cshtml.g.cs
+C:\Users\student\Code_School\cohort5\sprint_three\dotnet\200915\200915-auth-crud-lecture-autumn-ragland\Lecture\obj\Debug\netcoreapp3.1\Razor\Views\Band\UpdateForm.cshtml.g.cs
+C:\Users\student\Code_School\cohort5\sprint_three\dotnet\200915\200915-auth-crud-lecture-autumn-ragland\Lecture\obj\Debug\netcoreapp3.1\Razor\Views\Band\_form.cshtml.g.cs

@@ -72,7 +72,7 @@ namespace Lecture
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{controller=Band}/{action=Index}/{id?}");
                 endpoints.MapRazorPages();
             });
         }

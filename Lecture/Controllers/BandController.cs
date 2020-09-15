@@ -42,7 +42,7 @@ namespace Lecture.Controllers
                 return RedirectToAction("Index");
             } else 
             {
-                return Content("Invalid Model");
+                return View("AddForm", newBand);
             }
 
         }
@@ -63,7 +63,7 @@ namespace Lecture.Controllers
                     return RedirectToAction("Index");
                 } else
                 {
-                    return Content("Invalid Model");
+                    return View("UpdateForm", updateBand);
                 }
             } else 
             {
@@ -95,16 +95,30 @@ namespace Lecture.Controllers
 
         // update form
         [Authorize]
-        public IActionResult UpdateForm()
-        {
-            return View();
+        public IActionResult UpdateForm(int bandID)
+        {            
+            BandModel matchingBand = _context.bands.FirstOrDefault(band => band.id == bandID);
+            if(matchingBand != null)
+            {
+                return View(matchingBand);
+            } else 
+            {
+                return Content("Matching Band Not Found");
+            }
         }
 
         // delete confirmation
         [Authorize]
-        public IActionResult DeleteConf()
+        public IActionResult DeleteConf(int bandID)
         {
-            return View();
+            BandModel matchingBand = _context.bands.FirstOrDefault(band => band.id == bandID);
+            if(matchingBand != null)
+            {
+                return View(matchingBand);
+            } else 
+            {
+                return Content("Matching Band Not Found");
+            }
         }
     }
 }

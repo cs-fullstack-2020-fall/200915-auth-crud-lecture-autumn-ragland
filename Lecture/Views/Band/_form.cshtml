@@ -1,0 +1,19 @@
+@model Lecture.Models.BandModel;
+
+<div>
+    @Html.LabelFor(band => band.bandName)
+    @Html.TextBoxFor(band => band.bandName)
+    @Html.ValidationMessageFor(band => band.bandName)
+</div>
+
+<div>
+    @Html.LabelFor(band => band.yearFormed)
+    @Html.TextBoxFor(band => band.yearFormed)
+    @Html.ValidationMessageFor(band => band.yearFormed)
+</div>
+
+<div>
+    @Html.LabelFor(band => band.numberOfMembers)
+    @Html.TextBoxFor(band => band.numberOfMembers)
+    @Html.ValidationMessageFor(band => band.numberOfMembers)
+</div>

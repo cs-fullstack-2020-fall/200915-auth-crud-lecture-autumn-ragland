@@ -1,1 +1,11 @@
+@model Lecture.Data.ApplicationDbContext
+
 <h1>View Bands</h1>
+@foreach (BandModel band in @Model.bands)
+{
+    <partial name = "_band" model = "@band"/>
+    <a asp-controller = "Band" asp-action = "Details" asp-route-bandID = "@band.id">
+        <button>Details</button> 
+    </a>
+
+}

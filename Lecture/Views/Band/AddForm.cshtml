@@ -1,0 +1,9 @@
+@model Lecture.Models.BandModel
+<h1>Add a Band</h1>
+
+@using (@Html.BeginForm("Add", "Band"))
+{
+   <partial name="_form" model="@Model"/> 
+   <button type="submit">Submit</button>
+}
+

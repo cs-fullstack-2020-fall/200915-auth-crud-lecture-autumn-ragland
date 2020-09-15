@@ -1,0 +1,12 @@
+@model Lecture.Models.BandModel
+<h1>Add a Band</h1>
+
+@using (@Html.BeginForm("Update", "Band"))
+{
+   <partial name="_form" model="@Model"/>
+   <div>
+       @Html.HiddenFor(band => band.id)
+   </div> 
+   <button type="submit">Submit</button>
+}
+

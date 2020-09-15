@@ -1,1 +1,14 @@
+@model Lecture.Models.BandModel
+
 <h1>Band Details</h1>
+
+<partial name="_band" model="@Model"/>
+
+<a asp-controller = "Band" asp-action = "UpdateForm" asp-route-bandID = "@Model.id">
+    <button>Edit</button> 
+</a>
+
+<a asp-controller = "Band" asp-action = "DeleteConf" asp-route-bandID = "@Model.id">
+    <button>Delete</button> 
+</a>
+

@@ -1,0 +1,12 @@
+@model Lecture.Models.BandModel
+
+<h1>Are you sure you want to delete @Model.bandName?</h1>
+
+<partial name = "_band" model = "@Model"/>
+
+<a asp-controller = "Band" asp-action = "Delete" asp-route-bandID = "@Model.id">
+    <button>Delete</button> 
+</a>
+<a asp-controller = "Band" asp-action = "Details" asp-route-bandID = "@Model.id">
+    <button>Go Back</button> 
+</a>
